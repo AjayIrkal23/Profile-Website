@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Nav-Bar Code  */
+
+p {
+    margin-bottom: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navpart-1 {
+    display: flex;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 50px;
+    padding-left: 12px;
+    border-top: solid grey 1px;
+    border-bottom: solid grey 1px;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.colum-mercy {
+    display: flex;
+    flex-direction: column;
+}
+
+.navpart-2 {
+    font-size: 3rem;
+}
+
+.margin {
+    padding-right: 10%;
+    text-transform: capitalize;
+    font-size: 1.2rem;
+}
+
+nav .navpart-1 a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .navpart-1 a:hover {
+    color: grey;
+}
+
+.navpart-2 {
+    display: flex;
+    margin-top: 3%;
+    flex-direction: row;
+    align-items: center;
+    margin-left: 5vw;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 10.5%;
+    margin-right: 10.5%;
+}
+
+.navpart-2 a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4rem;
+    color: #C7423f;
+    align-items: center;
+    letter-spacing: 5px;
+}
+
+.font-1rem {
+    font-size: 1.2rem;
+    justify-self: center;
+    padding-left: 12%;
+}
+
+.navpart-3 {
+    display: flex;
+    margin-top: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 50px;
+    padding-left: 12px;
+    border-top: solid grey 1px;
+    border-bottom: solid grey 1px;
+    flex-direction: row;
+    align-items: center;
+    margin-right: 5vw;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav .navpart-3 a {
+    text-decoration: none;
+    color: black;
+}
+
+nav .navpart-3 a:hover {
+    color: grey;
+}
+
+.red {
+    color: #C7423f;
+    font-weight: 600;
+    font-family: 'Oswald', sans-serif;
+    padding-left: 5%;
+}
+
+.nav-hr {
+    display: none;
+}
+
+
+/* Nav-Bar Responsive Code */
+
+@media (max-width: 912px) {
+    nav {
+        flex-direction: column;
+    }
+    .navpart-1 {
+        margin: 0;
+        margin-top: 5%;
+    }
+    .navpart-2 {
+        margin: 0;
+    }
+    .navpart-3 {
+        margin: 0;
+        margin-top: 3%;
+    }
+    .nav-hr {
+        display: block;
+    }
+}
+
+
+/* Nav-Bar Code closing */
+
+
+/* About-area-code */
+
+.about-area {
+    display: flex;
+    flex: 50%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    background-color: #FA8072;
+    padding-bottom: 2%;
+}
+
+.about-area img {
+    width: 350px;
+    height: 500px;
+    border-radius: 5%;
+    border: black solid 1px;
+}
+
+.about-area .img-div {
+    margin-right: 15%;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+
+.about-area .tittle {
+    font-family: 'Oswald', sans-serif;
+    font-size: 3rem;
+    color: black;
+    margin-left: 15%;
+    letter-spacing: 2px;
+}
+
+.about-area .details {
+    margin-left: 10%;
+    margin-top: 2%;
+    color: black;
+    font-family: 'Ubuntu ', sans-serif;
+    font-weight: 450;
+}
+
+.about-hr {
+    margin: auto;
+    margin-top: 25px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 912px) {
+    .hidden {
+        display: block;
+    }
+    .about-area {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .about-area .img-div {
+        margin: 10%;
+    }
+    .about-area .img-div img {
+        width: 300px;
+        height: 500px;
+    }
+    .about-area .tittle {
+        font-family: 'Oswald', sans-serif;
+        font-size: 3rem;
+        color: black;
+        margin-left: 0%;
+        letter-spacing: 2px;
+        align-self: center;
+        text-align: center;
+    }
+    summary {
+        color: black;
+    }
+    .sum-det {
+        font-family: 'Ubuntu', sans-serif;
+        font-weight: 400;
+    }
+    .hidden {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+    .details {
+        display: none;
+    }
+}
