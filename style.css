@@ -186,12 +186,12 @@ nav .navpart-3 a:hover {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     color: #C7423f;
-    margin-left: 25%;
+    margin-left: 15%;
     letter-spacing: 2px;
 }
 
 .about-area .details {
-    margin-left: 20%;
+    margin-left: 10%;
     margin-top: 2%;
     color: black;
     font-family: 'Ubuntu ', sans-serif;
@@ -266,7 +266,6 @@ nav .navpart-3 a:hover {
 .contaniers {
     min-height: calc(100vh - 100px - 10vh);
     display: flex;
-    align-items: center;
     justify-content: center;
 }
 
