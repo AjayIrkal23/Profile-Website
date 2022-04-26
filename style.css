@@ -172,6 +172,10 @@ nav .navpart-3 a:hover {
     border: black solid 3px;
 }
 
+.hide {
+    display: none;
+}
+
 .about-area .img-div {
     margin-right: 15%;
     margin-left: 5%;
@@ -182,12 +186,12 @@ nav .navpart-3 a:hover {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     color: #C7423f;
-    margin-left: 15%;
+    margin-left: 25%;
     letter-spacing: 2px;
 }
 
 .about-area .details {
-    margin-left: 10%;
+    margin-left: 20%;
     margin-top: 2%;
     color: black;
     font-family: 'Ubuntu ', sans-serif;
@@ -210,13 +214,21 @@ nav .navpart-3 a:hover {
     .hidden {
         display: block;
     }
+    .hide {
+        display: inline-block;
+    }
     .about-area {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
     .about-area .img-div {
-        margin: 10%;
+        margin: 5%;
+        margin-bottom: 2%;
+    }
+    .m-w-h {
+        width: 3%;
+        display: inline-block;
     }
     .about-area .tittle {
         font-family: 'Oswald', sans-serif;
@@ -229,6 +241,9 @@ nav .navpart-3 a:hover {
     }
     summary {
         color: #C7423f;
+    }
+    .desktop {
+        display: none;
     }
     .sum-det {
         font-family: 'Ubuntu', sans-serif;
@@ -249,7 +264,7 @@ nav .navpart-3 a:hover {
 /* About-area-code closing */
 
 .contaniers {
-    min-height: calc(100vh - 150px - 10vh);
+    min-height: calc(98vh - 100px - 10vh);
 }
 
 
