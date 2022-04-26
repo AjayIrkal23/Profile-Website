@@ -18,7 +18,7 @@ nav {
 
 .navpart-1 {
     display: flex;
-    margin-top: 2%;
+    margin-top: 0%;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-right: 50px;
@@ -63,7 +63,7 @@ nav .navpart-1 a:hover {
 
 .navpart-2 {
     display: flex;
-    margin-top: 2%;
+    margin-top: 0%;
     flex-direction: row;
     align-items: center;
     margin-left: 5vw;
@@ -90,7 +90,7 @@ nav .navpart-1 a:hover {
 
 .navpart-3 {
     display: flex;
-    margin-top: 2%;
+    margin-top: 0%;
     padding-top: 1%;
     padding-bottom: 1%;
     padding-right: 50px;
@@ -248,10 +248,15 @@ nav .navpart-3 a:hover {
 
 /* About-area-code closing */
 
+.about-area {
+    max-width: calc(100vh-200px-12vh);
+}
+
 
 /* footer-Code */
 
 .foot-navbar {
+    margin-top: 30px;
     display: flex;
     justify-content: center;
     align-items: center;
