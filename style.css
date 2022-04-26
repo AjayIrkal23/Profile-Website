@@ -249,15 +249,16 @@ nav .navpart-3 a:hover {
 /* About-area-code closing */
 
 .about-area {
-    height: 580px;
+    height: px;
 }
 
 
 /* footer-Code */
 
 .foot-navbar {
-    margin-top: 30px;
+    margin-top: 11%;
     display: flex;
+    justify-content: end;
     justify-content: center;
     align-items: center;
     background-color: #C7423f;
