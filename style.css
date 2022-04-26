@@ -264,14 +264,16 @@ nav .navpart-3 a:hover {
 /* About-area-code closing */
 
 .contaniers {
-    min-height: calc(98vh - 100px - 10vh);
+    min-height: calc(100vh - 100px - 10vh);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
 /* footer-Code */
 
 .foot-navbar {
-    margin-top: vh;
     display: flex;
     justify-content: end;
     justify-content: center;
@@ -281,3 +283,9 @@ nav .navpart-3 a:hover {
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
 }
+
+
+/* footer-closing */
+
+
+/* Skills-Code */
