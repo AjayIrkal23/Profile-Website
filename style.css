@@ -46,6 +46,12 @@ nav {
     font-size: 1.2rem;
 }
 
+.navpart-2-m {
+    font-size: 2rem;
+    color: #C7423f;
+    font-family: 'Oswald', sans-serif;
+}
+
 nav .navpart-1 a {
     text-decoration: none;
     color: black;
@@ -152,7 +158,6 @@ nav .navpart-3 a:hover {
     justify-content: center;
     align-items: center;
     margin-top: 2%;
-    background-color: #FA8072;
     padding-bottom: 2%;
 }
 
@@ -170,9 +175,9 @@ nav .navpart-3 a:hover {
 }
 
 .about-area .tittle {
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
-    color: black;
+    color: #C7423f;
     margin-left: 15%;
     letter-spacing: 2px;
 }
@@ -194,6 +199,9 @@ nav .navpart-3 a:hover {
     display: none;
 }
 
+
+/* About-area-responsive-code */
+
 @media (max-width: 912px) {
     .hidden {
         display: block;
@@ -213,14 +221,14 @@ nav .navpart-3 a:hover {
     .about-area .tittle {
         font-family: 'Oswald', sans-serif;
         font-size: 3rem;
-        color: black;
+        color: #C7423f;
         margin-left: 0%;
         letter-spacing: 2px;
         align-self: center;
         text-align: center;
     }
     summary {
-        color: black;
+        color: #C7423f;
     }
     .sum-det {
         font-family: 'Ubuntu', sans-serif;
@@ -235,4 +243,20 @@ nav .navpart-3 a:hover {
     .details {
         display: none;
     }
+}
+
+
+/* About-area-code closing */
+
+
+/* footer-Code */
+
+.foot-navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #C7423f;
+    height: 90px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
 }
