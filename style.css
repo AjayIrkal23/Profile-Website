@@ -248,15 +248,15 @@ nav .navpart-3 a:hover {
 
 /* About-area-code closing */
 
-.about-area {
-    height: px;
+.contaniers {
+    min-height: calc(100vh - 150px - 10vh);
 }
 
 
 /* footer-Code */
 
 .foot-navbar {
-    margin-top: 11%;
+    margin-top: vh;
     display: flex;
     justify-content: end;
     justify-content: center;
