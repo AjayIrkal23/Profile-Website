@@ -177,7 +177,7 @@ nav .navpart-3 a:hover {
 }
 
 .about-area .img-div {
-    margin-right: 15%;
+    margin-right: 10%;
     margin-left: 5%;
     margin-top: 2%;
 }
@@ -186,13 +186,13 @@ nav .navpart-3 a:hover {
     font-family: 'Montserrat', sans-serif;
     font-size: 3rem;
     color: #C7423f;
-    margin-left: 15%;
+    margin-left: 25%;
     letter-spacing: 2px;
 }
 
 .about-area .details {
-    margin-left: 10%;
-    margin-top: 2%;
+    margin-left: 20%;
+    margin-top: 1%;
     color: black;
     font-family: 'Ubuntu ', sans-serif;
     font-weight: 450;
@@ -214,6 +214,9 @@ nav .navpart-3 a:hover {
     .hidden {
         display: block;
     }
+    .about-area img {
+        width: 250px;
+    }
     .hide {
         display: inline-block;
     }
@@ -223,7 +226,7 @@ nav .navpart-3 a:hover {
         justify-content: center;
     }
     .about-area .img-div {
-        margin: 5%;
+        margin: 10%;
         margin-bottom: 2%;
     }
     .m-w-h {
