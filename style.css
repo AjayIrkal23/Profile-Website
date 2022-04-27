@@ -314,7 +314,48 @@ nav .navpart-3 a:hover {
         display: none;
     }
     .map-for-m {
-        display: inline-block;
-        margin-top: 15%;
+        display: flex;
+        margin-top: 10%;
     }
+}
+
+.address {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.h-address {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+}
+
+
+/* location code-Code closing */
+
+
+/* skills code  */
+
+.skills-flex {
+    display: flex;
+    flex: 25%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tittle-skills {
+    font-size: 2.5rem;
+    margin-top: 25%;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: underline;
+}
+
+.logo-skills {
+    width: 100px;
+    margin: 50px;
+    margin-bottom: 10px;
+}
+
+.skill-flex-last {
+    margin-bottom: 10%;
 }
