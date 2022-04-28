@@ -365,3 +365,54 @@ nav .navpart-3 a:hover {
 .skill-flex-last {
     margin-bottom: 10%;
 }
+
+.project-sec {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 25%;
+    justify-content: center;
+}
+
+.flex-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.project-sec .flex-items div img {
+    width: 300px;
+    padding-top: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+
+.project-text {
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+}
+
+.last-item {
+    margin-bottom: 5%;
+}
+
+@media (max-width: 912px) {
+    .project-sec .flex-items div img {
+        padding-top: 50px;
+        margin-right: 00px;
+        margin-left: 00px;
+    }
+    .last-item {
+        margin-bottom: 10%;
+    }
+}
+
+.Project-tittle {
+    font-size: 2.5rem;
+    margin-top: 25%;
+    font-family: 'Ubuntu', sans-serif;
+    text-decoration: underline;
+}
+
+
+}
