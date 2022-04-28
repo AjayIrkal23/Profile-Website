@@ -349,7 +349,9 @@ nav .navpart-3 a:hover {
     font-size: 2.5rem;
     margin-top: 25%;
     font-family: 'Ubuntu', sans-serif;
-    text-decoration: underline;
+    padding-left: 60px;
+    padding-right: 60px;
+    border-bottom: #C7423f 4px double;
 }
 
 .location-div {
@@ -411,8 +413,7 @@ nav .navpart-3 a:hover {
     font-size: 2.5rem;
     margin-top: 25%;
     font-family: 'Ubuntu', sans-serif;
-    text-decoration: underline;
-}
-
-
+    border-bottom: #C7423f 4px double;
+    padding-left: 60px;
+    padding-right: 60px;
 }
