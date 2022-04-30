@@ -280,10 +280,12 @@ nav .navpart-3 a:hover {
     justify-content: end;
     justify-content: center;
     align-items: center;
-    background-color: #C7423f;
-    height: 10vh;
+    background: rgb(0, 43, 210);
+    background: linear-gradient(343deg, rgba(0, 43, 210, 1) 0%, rgba(199, 66, 63, 1) 17%, rgba(199, 66, 63, 1) 78%, rgba(67, 63, 199, 1) 100%);
+    height: 11vh;
     font-family: 'Ubuntu', sans-serif;
     font-weight: 500;
+    color: white;
 }
 
 
@@ -416,4 +418,17 @@ nav .navpart-3 a:hover {
     border-bottom: #C7423f 4px double;
     padding-left: 60px;
     padding-right: 60px;
+}
+
+
+/* contact me section code */
+
+.contact-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-me-form {
+    display: flex;
 }
