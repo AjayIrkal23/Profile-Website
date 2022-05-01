@@ -132,6 +132,9 @@
      nav {
          flex-direction: column;
      }
+     body {
+         background-attachment: scroll;
+     }
      .navpart-1 {
          margin: 0;
          margin-top: 2%;
@@ -431,3 +434,15 @@
  .d-grid {
      margin-top: 3%;
  }
+
+ 
+
+
+
+
+
+
+
+
+
+
